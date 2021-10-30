@@ -1,0 +1,12 @@
+{
+  "fileSortOrder": "byCreatedTimeReverse",
+  "attachmentFolderPath": "./",
+  "alwaysUpdateLinks": true,
+  "autoPairBrackets": true,
+  "autoPairMarkdown": false,
+  "foldIndent": true,
+  "foldHeading": true,
+  "showFrontmatter": true,
+  "newFileLocation": "current",
+  "defaultViewMode": "preview"
+}

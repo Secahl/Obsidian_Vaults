@@ -1,0 +1,28 @@
+.markdown-preview-view.is-readable-line-width {
+    color: #c0bab2;
+    font-family: "Comic Sans MS";
+}
+
+.markdown-source-view {
+    font-size: var(--editor-font-size);
+    color: #c0bab2;
+}
+
+.nav-folder-title-content {
+    border-radius: 2px;
+    border: 1px solid transparent;
+    display: inline-block;
+    padding: 2px 4px;
+    color: lightgreen;
+}
+
+.nav-file-title-content {
+	color: white;
+}
+
+.side-dock-ribbon-tab, .side-dock-ribbon-action {
+    color: red;
+    text-align: center;
+    cursor: pointer;
+    stroke-width: 2px;
+}

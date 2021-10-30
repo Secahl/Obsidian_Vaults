@@ -1,0 +1,5 @@
+[[Username enumeration]]
+[[Flawed brute-force protection]]
+[[Account locking]]
+[[User rate limiting]]
+[[HTTP basic authentication]]

@@ -1,0 +1,9 @@
+{
+  "baseFontSize": 24,
+  "enabledCssSnippets": [
+    "userstyle1"
+  ],
+  "cssTheme": "Cybertron",
+  "baseFontSizeAction": true,
+  "theme": "obsidian"
+}

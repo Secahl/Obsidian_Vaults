@@ -1,0 +1,167 @@
+{
+  "main": {
+    "id": "357e110a4de90d0b",
+    "type": "split",
+    "children": [
+      {
+        "id": "a71356cd4c7d3771",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Client Side/1 Cross-site Scripting/Cross-site scripting.md",
+            "mode": "preview"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "48f00da54abbc47d",
+    "type": "split",
+    "children": [
+      {
+        "id": "989ce7a8c9ed75c0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7e795f96c37f7017",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "4864e5a70b2a1137",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#testingHTMLSinksinDOM",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": true,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ca5a18265453fefa",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "43a929a339088932",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "44008022c94111e8",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 201.5
+  },
+  "right": {
+    "id": "462c269293152d56",
+    "type": "split",
+    "children": [
+      {
+        "id": "00e05933b5719436",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b41881adccfa7aa5",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "Client Side/1 Cross-site Scripting/Cross-site scripting.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": true,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": true,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": false,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.6989606412938121,
+                  "close": true
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "d24511f81e756397",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bee09123131ea08b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Client Side/1 Cross-site Scripting/Cross-site scripting.md",
+                "collapseAll": false,
+                "extraContext": true,
+                "sortOrder": "byCreatedTimeReverse",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 233.60423278808594
+  },
+  "active": "a71356cd4c7d3771",
+  "lastOpenFiles": [
+    "Client Side/1 Cross-site Scripting/Cross-site scripting.md",
+    "Client Side/ClientSide.md",
+    "Client Side/1 Cross-site Scripting/Cross-site scripting contexts.md",
+    "Client Side/1 Cross-site Scripting/How to find and test for XSS vulnerabilities.md",
+    "Client Side/1 Cross-site Scripting/What can XSS be used for?.md",
+    "Client Side/1 Cross-site Scripting/What are the types of XSS attacks?.md",
+    "Server Side/1 SQLi/SQLi.md",
+    "Client Side/1 Cross-site Scripting/Reflected XSS.md",
+    "Client Side/2 Cross-site request forgery (CSRF)/Cross-site request forgery (CSRF).md",
+    "Client Side/1 Cross-site Scripting/Impact of reflected XSS attacks.md"
+  ]
+}

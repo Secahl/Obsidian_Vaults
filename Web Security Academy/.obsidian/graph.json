@@ -1,0 +1,100 @@
+{
+  "collapse-filter": true,
+  "search": "",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:\"Server Side/1 SQLi\"",
+      "color": {
+        "a": 1,
+        "rgb": 14701138
+      }
+    },
+    {
+      "query": "path:\"Server Side/2 Authentication vulnerabilities\"",
+      "color": {
+        "a": 1,
+        "rgb": 14725458
+      }
+    },
+    {
+      "query": "file:ServerSide",
+      "color": {
+        "a": 1,
+        "rgb": 1701160
+      }
+    },
+    {
+      "query": "path:\"Server Side/5 Business logic vulnerabilities\"",
+      "color": {
+        "a": 1,
+        "rgb": 873202
+      }
+    },
+    {
+      "query": "path:\"Server Side/3 Directory traversal\"",
+      "color": {
+        "a": 1,
+        "rgb": 1415533
+      }
+    },
+    {
+      "query": "path:\"Server Side/4 OS command injection\"",
+      "color": {
+        "a": 1,
+        "rgb": 5419488
+      }
+    },
+    {
+      "query": "path:\"Server Side/6 Information disclosure vulnerabilities\"",
+      "color": {
+        "a": 1,
+        "rgb": 7685939
+      }
+    },
+    {
+      "query": "path:\"Server Side/7 Access control vulnerabilities and privilege escalation\"",
+      "color": {
+        "a": 1,
+        "rgb": 11621088
+      }
+    },
+    {
+      "query": "path:\"Server Side/8 Server-side request forgery (SSRF)\"",
+      "color": {
+        "a": 1,
+        "rgb": 14701233
+      }
+    },
+    {
+      "query": "path:\"Server Side/9 XML external entity (XXE) injection\"",
+      "color": {
+        "a": 1,
+        "rgb": 9899020
+      }
+    },
+    {
+      "query": "file:ClientSide",
+      "color": {
+        "a": 1,
+        "rgb": 16719647
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": true,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": true,
+  "centerStrength": 0.518713248970312,
+  "repelStrength": 10,
+  "linkStrength": 1,
+  "linkDistance": 250,
+  "scale": 0.4016151595359042,
+  "close": true
+}
