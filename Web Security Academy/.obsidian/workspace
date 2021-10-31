@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Client Side/1 Cross-site Scripting/Cross-site scripting.md",
+            "file": "Client Side/Cross-origin resource sharing (CORS)/Cross-origin resource sharing (CORS).md",
             "mode": "preview"
           }
         }
@@ -93,7 +93,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Client Side/1 Cross-site Scripting/Cross-site scripting.md",
+                "file": "Client Side/Cross-origin resource sharing (CORS)/Cross-origin resource sharing (CORS).md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Client Side/1 Cross-site Scripting/Cross-site scripting.md",
+                "file": "Client Side/Cross-origin resource sharing (CORS)/Cross-origin resource sharing (CORS).md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "byCreatedTimeReverse",
@@ -153,15 +153,15 @@
   },
   "active": "a71356cd4c7d3771",
   "lastOpenFiles": [
-    "Client Side/1 Cross-site Scripting/Cross-site scripting.md",
+    "Client Side/Cross-origin resource sharing (CORS)/Cross-origin resource sharing (CORS).md",
+    "Client Side/Cross-origin resource sharing (CORS)/CORS and the Access-Control-Allow-Origin response header.md",
+    "Client Side/Cross-origin resource sharing (CORS)/Same-origin policy.md",
     "Client Side/ClientSide.md",
+    "Client Side/2 Cross-site request forgery (CSRF)/Cross-site request forgery (CSRF).md",
+    "Client Side/1 Cross-site Scripting/Cross-site scripting.md",
     "Client Side/1 Cross-site Scripting/Cross-site scripting contexts.md",
     "Client Side/1 Cross-site Scripting/How to find and test for XSS vulnerabilities.md",
     "Client Side/1 Cross-site Scripting/What can XSS be used for?.md",
-    "Client Side/1 Cross-site Scripting/What are the types of XSS attacks?.md",
-    "Server Side/1 SQLi/SQLi.md",
-    "Client Side/1 Cross-site Scripting/Reflected XSS.md",
-    "Client Side/2 Cross-site request forgery (CSRF)/Cross-site request forgery (CSRF).md",
-    "Client Side/1 Cross-site Scripting/Impact of reflected XSS attacks.md"
+    "Client Side/1 Cross-site Scripting/What are the types of XSS attacks?.md"
   ]
 }
