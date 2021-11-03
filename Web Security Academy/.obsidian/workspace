@@ -4,34 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "a71356cd4c7d3771",
+        "id": "c45ee477fb036c3b",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
             "file": "Client Side/5 DOM-based vulnerabilities/DOM-based vulnerabilities.md",
-            "mode": "preview"
-          }
-        }
-      },
-      {
-        "id": "31a9d3a7d05af62a",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Client Side/5 DOM-based vulnerabilities/Web message manipulation.md",
-            "mode": "preview"
-          }
-        }
-      },
-      {
-        "id": "020f4733e2a7c806",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Client Side/5 DOM-based vulnerabilities/Web messages.md",
             "mode": "preview"
           }
         }
@@ -115,7 +93,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Client Side/5 DOM-based vulnerabilities/Web messages.md",
+                "file": "Client Side/5 DOM-based vulnerabilities/DOM-based vulnerabilities.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -138,7 +116,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.6989606412938121,
+                  "scale": 0.40844332494219293,
                   "close": true
                 }
               }
@@ -156,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Client Side/5 DOM-based vulnerabilities/Web messages.md",
+                "file": "Client Side/5 DOM-based vulnerabilities/DOM-based vulnerabilities.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "byCreatedTimeReverse",
@@ -173,17 +151,17 @@
     "direction": "horizontal",
     "width": 233.60423278808594
   },
-  "active": "020f4733e2a7c806",
+  "active": "c45ee477fb036c3b",
   "lastOpenFiles": [
-    "Client Side/5 DOM-based vulnerabilities/Web messages.md",
-    "Client Side/5 DOM-based vulnerabilities/Web message manipulation.md",
     "Client Side/5 DOM-based vulnerabilities/DOM-based vulnerabilities.md",
-    "Client Side/ClientSide.md",
-    "Client Side/4 Clickjacking (UI redressing)/Clickjacking (UI redressing).md",
-    "Client Side/3 Cross-origin resource sharing (CORS)/Cross-origin resource sharing (CORS).md",
-    "Client Side/3 Cross-origin resource sharing (CORS)/CORS and the Access-Control-Allow-Origin response header.md",
-    "Client Side/3 Cross-origin resource sharing (CORS)/Same-origin policy.md",
-    "Client Side/2 Cross-site request forgery (CSRF)/Cross-site request forgery (CSRF).md",
-    "Client Side/1 Cross-site Scripting/Cross-site scripting.md"
+    "Client Side/5 DOM-based vulnerabilities/DOM clobbering.md",
+    "Client Side/5 DOM-based vulnerabilities/Denial of service.md",
+    "Client Side/5 DOM-based vulnerabilities/DOM-data manipulation.md",
+    "Client Side/5 DOM-based vulnerabilities/Client-side JSON injection.md",
+    "Client Side/5 DOM-based vulnerabilities/Cient-side XPath injection.md",
+    "Client Side/5 DOM-based vulnerabilities/HTML5-storage manipulation.md",
+    "Client Side/5 DOM-based vulnerabilities/Client-side SQl injection.md",
+    "Client Side/5 DOM-based vulnerabilities/Local file-path manipulation.md",
+    "Client Side/5 DOM-based vulnerabilities/Ajax request-header manipulation.md"
   ]
 }

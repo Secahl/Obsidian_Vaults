@@ -74,22 +74,22 @@ The following list provides a quick overview of common DOM-based vulnerabilities
 
 DOM-based vulnerability  |  Example sink
 ---- | ----
-[[DOM-based XSS \| DOM XSS]]  | `document.write()`
-[Open redirection](https://portswigger.net/web-security/dom-based/open-redirection) LABS | `window.location`
-[Cookie manipulation](https://portswigger.net/web-security/dom-based/cookie-manipulation) LABS  |  `document.cookie`
-[JavaScript injection](https://portswigger.net/web-security/dom-based/javascript-injection)  |  `eval()`
-[Document-domain manipulation](https://portswigger.net/web-security/dom-based/document-domain-manipulation)  |   `document.domain`
-[WebSocket-URL poisoning](https://portswigger.net/web-security/dom-based/websocket-url-poisoning)  |   `WebSocket()`
-[Link manipulation](https://portswigger.net/web-security/dom-based/link-manipulation)   |    `element.src`
-[[Web message manipulation]](https://portswigger.net/web-security/dom-based/web-message-manipulation)  |  `postMessage()`
-[Ajax request-header manipulation](https://portswigger.net/web-security/dom-based/ajax-request-header-manipulation)   |    `setRequestHeader()`
-[Local file-path manipulation](https://portswigger.net/web-security/dom-based/local-file-path-manipulation)   |   `FileReader.readAsText()`
-[Client-side SQl injection](https://portswigger.net/web-security/dom-based/client-side-sql-injection)    |    `ExecuteSql()`
-[HTML5-storage manipulation](https://portswigger.net/web-security/dom-based/html5-storage-manipulation)   |    `sessionStorage.setItem()`
-[Client-side XPath injection](https://portswigger.net/web-security/dom-based/client-side-xpath-injection)   |   `document.evaluate()`
-[Client-side JSON injection](https://portswigger.net/web-security/dom-based/client-side-json-injection)   |   `JSON.parse()`
-[DOM-data manipulation](https://portswigger.net/web-security/dom-based/dom-data-manipulation)   |    `element.setAttribute()`
-[Denial of service](https://portswigger.net/web-security/dom-based/denial-of-service)|   `RegExp()`
+[[DOM-based XSS \| DOM XSS]] LABS | `document.write()`
+[[Open redirection]] LABS | `window.location`
+[[Cookie manipulation]] LABS  |  `document.cookie`
+[[JavaScript injection]] |  `eval()`
+[[Document-domain manipulation]] |   `document.domain`
+[[WebSocket-URL poisoning]] |   `WebSocket()`
+[[Link manipulation]]  |    `element.src`
+[[Web message manipulation]]  |  `postMessage()`
+[[Ajax request-header manipulation]] |    `setRequestHeader()`
+[[Local file-path manipulation]]  |   `FileReader.readAsText()`
+[[Client-side SQl injection]]   |    `ExecuteSql()`
+[[HTML5-storage manipulation]]   |    `sessionStorage.setItem()`
+[[Cient-side XPath injection]]|   `document.evaluate()`
+[[Client-side JSON injection]]  |   `JSON.parse()`
+[[DOM-data manipulation]] |    `element.setAttribute()`
+[[Denial of service]] |   `RegExp()`
 
 
 ### How to prevent DOM-based taint-flow vulnerabilities
@@ -99,3 +99,10 @@ There is no single action you can take to eliminate the threat of DOM-based atta
 If the desired functionality of the application means that this behavior is unavoidable, then defenses must be implemented within the client-side code. In many cases, the relevant data can be validated on a `whitelist basis`, only allowing content that is known to be safe. In other cases, it will be necessary to `sanitize or encode the data`. This can be a complex task, and depending on the context into which the data is to be inserted, `may involve a combination of JavaScript escaping, HTML encoding, and URL encoding, in the appropriate sequence`.
 
 For measures you can take to prevent specific vulnerabilities, please refer to the corresponding vulnerability pages linked from the table above.
+
+
+## DOM clobbering
+
+DOM clobbering is an advanced technique in which you inject HTML into a page to manipulate the DOM and ultimately change the behavior of JavaScript on the website. The most common form of DOM clobbering uses an anchor element to overwrite a global variable, which is then used by the application in an unsafe way, such as generating a dynamic script URL.
+
+>##### Read more : [[DOM clobbering]]

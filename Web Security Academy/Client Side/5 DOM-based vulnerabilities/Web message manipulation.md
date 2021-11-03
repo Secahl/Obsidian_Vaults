@@ -1,4 +1,4 @@
-Parent Links : [[ClientSide]] > [[DOM-based vulnerabilities]]
+Parent Links : [[DOM-based vulnerabilities]]
 
 # Web message manipulation
 
