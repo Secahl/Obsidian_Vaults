@@ -5,3 +5,4 @@
 [[Cross-origin resource sharing (CORS)]]
 [[Clickjacking (UI redressing)]]
 [[DOM-based vulnerabilities]]
+[[WebSockets]]
